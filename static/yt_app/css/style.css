@@ -1,0 +1,72 @@
+.youtube{
+    width: 20rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+.youtube h1{
+    font-family: serif, auto !important;
+    color: red;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+a{
+    text-decoration: none;
+}
+form{
+    width: 25rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+.yt-url{
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-top: 2rem;
+}
+.yt-url input{
+    border: 0.1em solid black;
+}
+.usage{
+    margin-top: 1.5rem;
+    background-color: #87838387;
+}
+.heading{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.search-btn{
+    background-color: #ea3223;
+}
+.step{
+    width: 30rem;
+}
+img{
+    border-radius: 0.8rem;
+}
+h2{
+    font-size: larger;
+    font-weight: bold;
+}
+td, th{
+    padding: 0.5rem 1rem;
+}
+.underline{
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+}
+@media screen and (max-width:622px) {
+    .youtube h1{
+        font-size: medium;
+    }
+    form{
+        width: auto;
+    }
+    .yt-url{
+        margin: auto;
+    }
+    .yt-url input{
+        width: auto;
+    }
+    .step{
+        width: 20rem;
+    }
+}

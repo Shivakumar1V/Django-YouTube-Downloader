@@ -1,0 +1,29 @@
+{% extends 'yt_app/base.html' %}
+
+{% block body %}
+<form action="getvideo/" method="post">
+    {% csrf_token %}
+    <div class="mb-3 yt-url d-flex flex-column align-items-center">
+        <label for="url" class="form-label">YouTube Video Link:</label>
+        <input type="search" class="form-control" id="url" name="url" placeholder="Paste YouTube Video URL(Link) Here" required>
+        <button class="btn btn-danger mt-3 col-4 search-btn" type="submit">Search</button>
+    </div>
+</form>
+<div class="usage d-flex flex-column align-items-center">
+    <p class="heading underline my-4">How to use?</p>
+    <div class="steps">
+        <div class="step">
+            <h3><b>Step-1:</b></h3>
+            <p>Copy the YouTube video link</p>
+        </div>
+        <div class="step">
+            <h3><b>Step-2:</b></h3>
+            <p>Paste the video link in the search box and click on <b>Search</b> botton </p>
+        </div>
+        <div class="step">
+            <h3><b>Step-3:</b></h3>
+            <p>Now you will be redirected to download page select the Video/Audio file and choose resolution click on <b>Download</b> button.</p>
+        </div>
+    </div>
+</div>
+{% endblock body %}
