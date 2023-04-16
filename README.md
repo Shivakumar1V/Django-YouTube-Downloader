@@ -32,7 +32,7 @@ This is a YouTube video and audio downloader web application built using Django 
 Clone the project
 
 ```bash
-  git clone https://github.com/Shivakumar1V/Django-YouTube-Video-Downloader
+  git clone https://github.com/Shivakumar1V/Django-YouTube-Downloader
 ```
 - Go to the directory where `manage.py` file is available, use `cd` to change the directory 
 
